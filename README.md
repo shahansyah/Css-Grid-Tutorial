@@ -51,3 +51,14 @@ Clear explanations of core concepts:
 - Grid Area: A space composed of multiple grid cells.
 - Grid Track: A single row or column path.
 - Grid Gap: The space or gutter between grid tracks.
+
+3.Essential CSS Grid Properties
+A breakdown of key properties included in the notes:
+
+    grid-template-columns & grid-template-rows
+
+    grid-auto-columns, grid-auto-rows, & grid-auto-flow
+
+    grid-template-areas & grid-template
+
+    grid-column-gap, grid-row-gap, & grid-gap
