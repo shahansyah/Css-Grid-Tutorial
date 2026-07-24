@@ -43,10 +43,11 @@ Practical Layout Examples:
   
 2.Basic CSS Grid Terminology
 Clear explanations of core concepts:
+
 - Grid Container: The parent element where display: grid is applied.
--Grid Item: Direct children inside the grid container.
--Grid Line: Horizontal and vertical dividing lines forming the grid structure.
--Grid Cell: The smallest unit in a grid (the intersection of a row and column).
--Grid Area: A space composed of multiple grid cells.
--Grid Track: A single row or column path.
--Grid Gap: The space or gutter between grid tracks.
+- Grid Item: Direct children inside the grid container.
+- Grid Line: Horizontal and vertical dividing lines forming the grid structure.
+- Grid Cell: The smallest unit in a grid (the intersection of a row and column).
+- Grid Area: A space composed of multiple grid cells.
+- Grid Track: A single row or column path.
+- Grid Gap: The space or gutter between grid tracks.
