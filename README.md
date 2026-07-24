@@ -9,4 +9,19 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
->**“Here, I'm Creating Documentation on What Flexbox Is”**—Css Grid
+>**“Here, I'm Creating Documentation on What Css Grid Is”**—CSS Grid Layout (or simply CSS Grid) is a two-dimensional (2D) layout system in CSS. Unlike Flexbox, which focuses on only one direction (rows or columns), CSS Grid is designed to handle rows and columns simultaneously. This makes it easier to create complex, responsive web page structures without having to resort to complicated floats or positioning tricks.
+
+## ⚒️ Spesifikasi Arsitektur / Architectural Specifications
+
+This project demonstrates how to use FlexBox in CSS, as outlined in this documentation...
+## 📂️ Struktur yang ada di dalamnya / The structure inside it 
+|Struktur      |Spesifikasi                          | Specifications                       |
+| :------------| :-----------------------------------|--------------------------------------|
+| `index.html` | membangun kerangka dasar web        | builds the basic web framework       |     
+| `style.css`  | untuk mengatur tampilan HTML        | to style the HTML                    |
+| `container1` | penjelasan dasar FlexBox            | basic explanation of FlexBox         |
+| `container2` | box-sizing,Display,justify-content  | box-sizing, display, justify-content |
+| `container3` | flex-warp,max-width                 | flex-wrap, max-width                 |
+| `container4` | transition,overflow                 | transition, overflow                 |
+| `container5` | membuat kotak dan tulisan responsive| creating responsive boxes and text   |
+
