@@ -1,0 +1,566 @@
+/* ==========================================
+   1. BASE / GLOBAL STYLES
+   ========================================== */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(2, 241, 241),
+    rgb(0, 191, 255),
+    rgb(2, 241, 241)
+  );
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.judul {
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Base Container Style */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  border: 5px inset black;
+  margin: 50px auto;
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+/* Layout Shared Elements (Header & Footer) */
+header {
+  background-color: purple;
+  padding: 40px 0;
+  color: white;
+}
+
+footer {
+  background-color: grey;
+  padding: 40px 0;
+  color: white;
+}
+
+/* ==========================================
+   2. HERO / INTRODUCTION
+   ========================================== */
+.sidebar-utama {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sidebar-utama p {
+  text-align: justify;
+  max-width: 600px;
+  border: 5px dotted grey;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+/* ==========================================
+   3. LESSON 1: FLOAT LAYOUT
+   ========================================== */
+#container1 .container {
+  border: 5px solid black;
+  padding: 5px;
+}
+
+#container1 .sidebar {
+  float: left;
+  width: 40%;
+}
+
+#container1 aside {
+  background-color: red;
+  padding: 60px;
+}
+
+#container1 nav {
+  background-color: brown;
+  padding: 101px;
+}
+
+#container1 main {
+  float: right;
+  width: 60%;
+  background-color: rgb(23, 23, 3);
+  padding: 178px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ==========================================
+   4. LESSON 2: FLEXBOX LAYOUT
+   ========================================== */
+#container2 .container {
+  border: 5px solid black;
+  padding: 5px;
+  color: aliceblue;
+}
+
+#container2 .content {
+  display: flex;
+}
+
+#container2 .sidebar1 {
+  flex: 2;
+}
+
+#container2 .sidebar1 aside {
+  background-color: red;
+  padding: 60px;
+}
+
+#container2 .sidebar1 nav {
+  background-color: brown;
+  padding: 101px;
+}
+
+#container2 main {
+  flex: 1.5;
+  background-color: rgb(23, 23, 3);
+  padding: 178px;
+}
+
+/* ==========================================
+   5. LESSON 3: CONCLUSION & TERMINOLOGY
+   ========================================== */
+#conclusion .container p {
+  text-align: center;
+  padding: 10px;
+}
+
+#conclusion span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#kesimpulan p {
+  text-align: center;
+}
+
+#kesimpulan span {
+  font-weight: bold;
+}
+
+#kesimpulan .content {
+  max-width: 800px;
+  border: 5px solid red;
+  margin: 50px auto;
+  background-color: burlywood;
+}
+
+#terminologi p {
+  text-align: justify;
+  padding: 5px;
+}
+
+#terminologi span {
+  font-weight: bold;
+}
+
+/* ==========================================
+   6. CSS GRID DEMO SECTION
+   ========================================== */
+#grid .container {
+  display: grid;
+  border: 5px solid black;
+  color: aliceblue;
+  padding: 5px;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "nav main"
+    "footer footer";
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: auto auto auto auto;
+}
+
+#grid header {
+  grid-area: header;
+}
+#grid aside {
+  grid-area: aside;
+  background-color: red;
+  padding: 60px;
+}
+#grid nav {
+  grid-area: nav;
+  background-color: brown;
+  padding: 101px;
+}
+#grid main {
+  grid-area: main;
+  background-color: rgb(23, 23, 3);
+  padding: 178px;
+  width: 100%;
+}
+#grid footer {
+  grid-area: footer;
+}
+
+/* ==========================================
+   7. GRID PROPERTIES LIST
+   ========================================== */
+.grid-container {
+  width: 90%;
+  max-width: 1200px;
+  background-color: aliceblue;
+  margin: 50px auto;
+  display: grid;
+  grid-template-rows: repeat(7, auto);
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr ; /*just two column with 1fr*/
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.content-grid {
+  grid-column: 1 / 3;
+  grid-row: 1;
+  font-size: 30px;
+  text-align: justify;
+  padding: 5px 0;
+}
+
+.list {
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid black;
+  text-align: justify;
+}
+
+.penutup {
+  grid-column: 1 / 3;
+  grid-row: 7;
+  font-size: 30px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* ==========================================
+   8. GRID LESSON (CONTENT SIZING & IMPLICIT)
+   ========================================== */
+#lesson .container {
+  max-width: 1600px;
+}
+
+.container-item,
+.container-item1,
+.container-item2 {
+  width: 80%;
+  margin: 50px auto;
+  border: 5px solid black;
+  display: grid;
+}
+
+.container-item {
+  grid-template-columns: 1fr 2fr 3.5fr;
+  grid-template-rows: 1fr 2fr 8fr;
+}
+
+.container-item1 {
+  grid-template-columns: 1fr max-content 3.5fr;
+}
+
+.container-item2 {
+  grid-template-columns: 1fr min-content 3.5fr;
+}
+
+.penjelasan {
+  width: 80%;
+  margin: 50px auto;
+  border: 3px solid black;
+}
+
+.penjelasan p {
+  text-align: center;
+  padding: 10px;
+}
+
+.item {
+  background-color: rgb(255, 252, 252);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.item:nth-child(even) {
+  background-color: aqua;
+}
+
+.implisit,
+.max,
+.explicit {
+  width: 80%;
+  padding: 10px;
+  border: 3px dotted black;
+  margin: 30px auto;
+  text-align: justify;
+}
+
+/* ==========================================
+   9. GALLERY SECTION
+   ========================================== */
+#gallery ul {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  list-style: none;
+  padding: 10px;
+  margin: 50px auto;
+  border: 5px solid rgb(255, 36, 36);
+  box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 10);
+  background-color: aliceblue;
+}
+img {
+  border: 5px solid black;
+}
+
+img:hover {
+  /* 2. Saat di-hover, biarkan kartu membesar lewat transform bawaan dulu */
+  transform: scale(1.4);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 5);
+  transition:
+    transform 0.4s cubic-bezier(0.25, 1, 0.1, 1),
+    box-shadow 0.4s ease;
+}
+
+/* ==========================================
+   10. Grid Area & Grid Gap
+   ========================================== */
+#grid-area {
+  max-width: 80%;
+  background-color: aliceblue;
+  margin: 50px auto;
+  border: 5px solid black;
+}
+#grid-area p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.kotak {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+#grid-area .container {
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "sidebar content content"
+    "footer footer footer";
+  display: grid;
+}
+.header {
+  grid-area: header;
+  background-color: rebeccapurple;
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: red;
+}
+.content {
+  grid-area: content;
+  background-color: green;
+}
+.footer {
+  grid-area: footer;
+  background-color: gray;
+}
+
+/* ======================================
+   11.Jusify-item
+   ====================================== */
+#justify .container {
+  max-width: 80%;
+  text-align: justify;
+  padding: 20px;
+}
+.container-items {
+  display: grid;
+  max-width: 80%;
+  margin: 50px auto;
+  row-gap: 5px;
+  
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+.garis {
+  height: 2px;
+  background-color: black;
+}
+.kota {
+  padding: 100px 100px;
+  color: white;
+}
+.kotak1 {
+  background-color: aqua;
+  justify-self: start;
+}
+.kotak2 {
+  background-color: rgb(255, 123, 0);
+  justify-self: end;
+}
+.kotak3 {
+  background-color: rgb(239, 11, 22);
+  justify-self: center;
+}
+.kotak4 {
+  background-color: rgb(0, 8, 255);
+  justify-self: stretch;
+}
+
+/* =============================================
+   closing                                     
+   ============================================= */
+.closing h2{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================
+   RESPONSIVE BREAKPOINTS (Mobile & Tablet)
+   ====================================== */
+
+/* 1. LAYAR TABLET & HP (Maksimal 768px) */
+@media screen and (max-width: 768px) {
+  /* --- Global & Container Adjustments --- */
+  .judul {
+    font-size: 2rem;
+  }
+
+  .container {
+    width: 95%;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+  /* --- Section 2: Hero / Introduction --- */
+  .sidebar-utama {
+    flex-direction: column; /* Mengubah p bersebelahan menjadi bertumpuk */
+    gap: 0;
+  }
+  /* --- Section 3: Float Layout Demo --- */
+  #container1 .sidebar,
+  #container1 main {
+    float: none;
+    width: 100%; /* Float dibuat full width di layar kecil */
+  }
+  /* --- Section 4: Flexbox Layout Demo --- */
+  #container2 .content {
+    flex-direction: column; /* Flexbox diubah jadi 1 kolom */
+  }
+  /* --- Section 6: CSS Grid Demo --- */
+  #grid .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "aside"
+      "nav"
+      "main"
+      "footer"; /* Ubah area grid jadi 1 kolom vertikal */
+  }
+  /* --- Section 7: Grid Properties List --- */
+  .grid-container {
+    grid-template-columns: 1fr; /* List angka diubah jadi 1 kolom */
+    grid-auto-flow: row;
+  }
+
+  .content-grid,
+  .penutup {
+    grid-column: 1; /* Sesuaikan span kolom */
+  }
+
+  .penutup {
+    grid-row: auto;
+  }
+
+  /* --- Section 8: Grid Lesson (Content Sizing) --- */
+  .container-item,
+  .container-item1,
+  .container-item2 {
+    width: 100%;
+    /* Ubah dari 3 kolom menjadi scroll horizontal jika meluap, atau ganti ke 1fr */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .penjelasan,
+  .implisit,
+  .max,
+  .explicit {
+    width: 100%;
+  }
+
+  /* --- Section 10: Grid Area Section --- */
+  #grid-area {
+    max-width: 95%;
+  }
+
+  #grid-area .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "content"
+      "footer"; /* Layout grid-area diubah jadi vertikal */
+  }
+
+  .kotak {
+    padding: 40px 20px; /* Kurangi padding kotak agar tidak terlalu tinggi di HP */
+  }
+}
+
+/* 2. LAYAR HP KECIL (Maksimal 480px) */
+@media screen and (max-width: 480px) {
+  .judul {
+    font-size: 1.5rem;
+  }
+
+  #gallery ul {
+    width: 95%;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(100px, 1fr)
+    ); /* Ukuran kartu galeri disesuaikan */
+  }
+}
