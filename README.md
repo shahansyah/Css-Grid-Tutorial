@@ -27,3 +27,59 @@ This project demonstrates how to use Grid in CSS, as outlined in this documentat
 | `The Example of gallery Responsive with repeat(auto-fit, minmax(150px, 1fr))` | contoh responsive menggunakan repeat           | The Example of gallery Responsive with repeat  |
 | `TThe example of Justify-items in css grid `                                  | pcontoh penggunaan justify-items               | The example of Justify-items in css grid       |  
 
+📌 CSS Grid Documentation Overview
+
+This HTML document serves as an interactive study note and documentation page showcasing the evolution of CSS layout techniques—from Float and Flexbox to an in-depth exploration of CSS Grid.
+📚 Structure & Key Topics Covered
+
+    Basic Concepts & Layout Comparisons
+
+        CSS Grid Definition: A two-dimensional (2D) layout system capable of handling both rows and columns simultaneously.
+
+        Practical Layout Examples:
+
+            Page structure using Float (including clearfix).
+
+            Page structure using Flexbox (1D layout).
+
+            Page structure using CSS Grid (2D layout).
+
+    Basic CSS Grid Terminology
+    Clear explanations of core concepts:
+
+        Grid Container: The parent element where display: grid is applied.
+
+        Grid Item: Direct children inside the grid container.
+
+        Grid Line: Horizontal and vertical dividing lines forming the grid structure.
+
+        Grid Cell: The smallest unit in a grid (the intersection of a row and column).
+
+        Grid Area: A space composed of multiple grid cells.
+
+        Grid Track: A single row or column path.
+
+        Grid Gap: The space or gutter between grid tracks.
+
+    Essential CSS Grid Properties
+    A breakdown of key properties included in the notes:
+
+        grid-template-columns & grid-template-rows
+
+        grid-auto-columns, grid-auto-rows, & grid-auto-flow
+
+        grid-template-areas & grid-template
+
+        grid-column-gap, grid-row-gap, & grid-gap
+
+    Advanced Concepts & Hands-on Demos
+
+        Explicit vs. Implicit Grid: The difference between manually defined layouts and auto-generated browser tracks.
+
+        Sizing Keywords: Usage of max-content and min-content.
+
+        Responsive Gallery: A Mobile Legends hero gallery built with repeat(), auto-fit, and minmax().
+
+        Area-Based Layouts: Sectioning pages using the grid-area property.
+
+        Alignment Controls: Horizontal item alignment using justify-items (start, end, center, stretch).
