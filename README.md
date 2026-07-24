@@ -13,15 +13,15 @@
 
 ## ⚒️ Spesifikasi Arsitektur / Architectural Specifications
 
-This project demonstrates how to use FlexBox in CSS, as outlined in this documentation...
+This project demonstrates how to use Grid in CSS, as outlined in this documentation...
 ## 📂️ Struktur yang ada di dalamnya / The structure inside it 
-|Struktur      |Spesifikasi                          | Specifications                       |
-| :------------| :-----------------------------------|--------------------------------------|
-| `index.html` | membangun kerangka dasar web        | builds the basic web framework       |     
-| `style.css`  | untuk mengatur tampilan HTML        | to style the HTML                    |
-| `container1` | penjelasan dasar FlexBox            | basic explanation of FlexBox         |
-| `container2` | box-sizing,Display,justify-content  | box-sizing, display, justify-content |
-| `container3` | flex-warp,max-width                 | flex-wrap, max-width                 |
+|Struktur                |Spesifikasi                                  | Specifications                       |
+| :----------------------| :-------------------------------------------|--------------------------------------|
+| `index.html`           | membangun kerangka dasar web                | builds the basic web framework       |     
+| `style.css`            | untuk mengatur tampilan HTML                | to style the HTML                    |
+| `project using float ` | penjelasan dasar penggunaan float           | basic explanation of Float           |
+| `Project using flex`   | penjelasan dasar penggunaan flex            | basic explanation of Float           |
+| `Simple structure using CSS Grid` | flex-warp,max-width                 | flex-wrap, max-width                 |
 | `container4` | transition,overflow                 | transition, overflow                 |
 | `container5` | membuat kotak dan tulisan responsive| creating responsive boxes and text   |
 
