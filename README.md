@@ -62,3 +62,15 @@ A breakdown of key properties included in the notes:
     grid-template-areas & grid-template
 
     grid-column-gap, grid-row-gap, & grid-gap
+
+4.Advanced Concepts & Hands-on Demos
+
+    Explicit vs. Implicit Grid: The difference between manually defined layouts and auto-generated browser tracks.
+
+    Sizing Keywords: Usage of max-content and min-content.
+
+    Responsive Gallery: A Mobile Legends hero gallery built with repeat(), auto-fit, and minmax().
+
+    Area-Based Layouts: Sectioning pages using the grid-area property.
+
+    Alignment Controls: Horizontal item alignment using justify-items (start, end, center, stretch).
