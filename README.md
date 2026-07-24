@@ -33,9 +33,18 @@ This project demonstrates how to use Grid in CSS, as outlined in this documentat
 This HTML document serves as an interactive study note and documentation page showcasing the evolution of CSS layout techniques—from Float and Flexbox to an in-depth exploration of CSS Grid.
 
 📚 Structure & Key Topics Covered
-Basic Concepts & Layout Comparisons
+1.Basic Concepts & Layout Comparisons
 SS Grid Definition: A two-dimensional (2D) layout system capable of handling both rows and columns simultaneously.
 Practical Layout Examples:
 - Page structure using Float (including clearfix).
 - Page structure using Flexbox (1D layout).
 - Page structure using CSS Grid (2D layout).
+2.Basic CSS Grid Terminology
+Clear explanations of core concepts:
+- Grid Container: The parent element where display: grid is applied.
+-Grid Item: Direct children inside the grid container.
+-Grid Line: Horizontal and vertical dividing lines forming the grid structure.
+-Grid Cell: The smallest unit in a grid (the intersection of a row and column).
+-Grid Area: A space composed of multiple grid cells.
+-Grid Track: A single row or column path.
+-Grid Gap: The space or gutter between grid tracks.
