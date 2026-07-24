@@ -27,5 +27,7 @@ This project demonstrates how to use Grid in CSS, as outlined in this documentat
 | `The Example of gallery Responsive with repeat(auto-fit, minmax(150px, 1fr))` | contoh responsive menggunakan repeat           | The Example of gallery Responsive with repeat  |
 | `TThe example of Justify-items in css grid `                                  | pcontoh penggunaan justify-items               | The example of Justify-items in css grid       |  
 
-##📌 CSS Grid Documentation Overview
+---
+
+## 📌 CSS Grid Documentation Overview
 This HTML document serves as an interactive study note and documentation page showcasing the evolution of CSS layout techniques—from Float and Flexbox to an in-depth exploration of CSS Grid.
