@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Documentation of CSS Grid</title>
+  </head>
+  <body>
+    <div class="judul">
+      <h2>Documentation of CSS Grid</h2>
+    </div>
+
+    <div class="container">
+      <h2>
+        Pengertian Dasar Mengenai CSS Grid<br />
+        Basic Concepts of CSS Grid
+      </h2>
+      <div class="sidebar-utama">
+        <p>
+          CSS Grid Layout (atau cukup disebut CSS Grid) adalah sistem tata letak
+          (layout system) berbasis dua dimensi (2D) di CSS. Berbeda dengan
+          Flexbox yang berfokus pada satu arah saja (baris atau kolom), CSS Grid
+          dirancang untuk menangani baris (rows) dan kolom (columns) secara
+          bersamaan. Hal ini memudahkan kita dalam membuat struktur halaman web
+          yang kompleks dan responsif tanpa perlu menggunakan trik floats atau
+          positioning yang rumit.
+        </p>
+
+        <p>
+          CSS Grid Layout (or simply CSS Grid) is a two-dimensional (2D) layout
+          system in CSS. Unlike Flexbox, which focuses on only one direction
+          (rows or columns), CSS Grid is designed to handle rows and columns
+          simultaneously. This makes it easier to create complex, responsive web
+          page structures without having to resort to complicated floats or
+          positioning tricks.
+        </p>
+      </div>
+    </div>
+
+    <!-- =================================
+          project using float 
+         =================================-->
+    <h1>The Example for Using Float</h1>
+    <section id="container1">
+      <div class="container">
+        <header>HEADER</header>
+        <div class="sidebar">
+          <aside>ASIDE</aside>
+          <nav>NAV</nav>
+        </div>
+        <main>MAIN</main>
+        <div class="clear"></div>
+        <footer>FOOTER</footer>
+      </div>
+    </section>
+
+    <!-- =================================
+         Project using flex 
+         =================================-->
+    <h1>The Example for Using Flex</h1>
+    <section id="container2">
+      <div class="container">
+        <header>HEADER</header>
+        <div class="content">
+          <div class="sidebar1">
+            <aside>ASIDE</aside>
+            <nav>NAV</nav>
+          </div>
+          <main>MAIN</main>
+        </div>
+        <footer>FOOTER</footer>
+      </div>
+    </section>
+
+    <section id="conclusion">
+      <div class="container">
+        <h2>The Conclusion For The First Lesson</h2>
+        <p>
+          OK, we're done for the first lesson. We've already covered the
+          difference between Flex and Float. The first container explained how
+          to use float, and the second container explained how to use flex.
+          <span>We should already understand how both of them work.</span>
+        </p>
+      </div>
+    </section>
+
+    <h1>GRID</h1>
+    <section id="kesimpulan">
+      <div class="container">
+        <p>
+          <span>Grid Layout (or simply CSS Grid) is</span> a two-dimensional
+          (2D) layout system in CSS.<br />
+          <span>Unlike Flexbox</span>, which focuses on only one direction
+          (either rows or columns), CSS Grid is specifically designed to handle
+          rows and columns simultaneously.
+        </p>
+        <div class="content">
+          <p>
+            By using CSS Grid, you can create complex, precise, and responsive
+            web page layouts much more easily without having to resort to
+            complicated floats or positioning tricks.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================
+         Simple structure using CSS Grid
+         ===================================== -->
+    <section id="grid">
+      <div class="container">
+        <header>HEADER</header>
+        <aside>ASIDE</aside>
+        <nav>NAV</nav>
+        <main>MAIN</main>
+        <footer>FOOTER</footer>
+      </div>
+    </section>
+
+    <section id="terminologi">
+      <h1>Basic Terminology of CSS Grid</h1>
+      <div class="container">
+        <p>
+          ▶ <span>Grid container:</span> Outer boundary (complex area). This is
+          the parent element that wraps all the items inside it. This is where
+          you enable the grid using the display: grid property.
+        </p>
+        <p>
+          ▶ <span>Grid item:</span> Houses within the complex. These are all
+          child elements (direct children) that are directly inside the Grid
+          container.
+        </p>
+        <p>
+          ▶ <span>Grid line:</span> Lot/road boundary lines. Horizontal and
+          vertical lines that form a grid structure. These lines are used as
+          numbering guides when we want to determine the start and end of an
+          element.
+        </p>
+        <p>
+          ▶ <span>Grid cell:</span> One plot of land (the smallest plot). This
+          is the smallest unit within the grid, formed at the intersection of
+          one row and one column (like a single cell in an Excel table).
+        </p>
+        <p>
+          ▶ <span>Grid area:</span> A combination of several grid cells. The
+          total area occupied by an element.
+        </p>
+        <p>
+          ▶ <span>Grid track:</span> A row of streets or a row of lots. A
+          general term used to refer to a full column (vertical) or a full row
+          (horizontal) within a grid.
+        </p>
+        <p>
+          ▶ <span>Grid gap:</span> The empty space or gutter between grid tracks
+          (columns or rows).
+        </p>
+      </div>
+    </section>
+
+    <!-- =============================
+     Atribute css grid
+     ============================= -->
+    <section id="properties">
+      <div class="grid-container">
+        <div class="content-grid">
+          So, in CSS Grid, we have several attribute properties:
+        </div>
+
+        <div class="list">1.) grid-template-columns</div>
+        <div class="list">2.) grid-template-rows</div>
+        <div class="list">3.) grid-auto-columns</div>
+        <div class="list">4.) grid-auto-rows</div>
+        <div class="list">5.) grid-auto-flow</div>
+        <div class="list">6.) grid-template-areas</div>
+        <div class="list">7.) grid-template</div>
+        <div class="list">8.) grid-column-gap</div>
+        <div class="list">9.) grid-row-gap</div>
+        <div class="list">10.) grid-gap</div>
+
+        <div class="penutup">
+          <mark>
+            As you've noticed, we've already covered some grid properties here,
+            but it's no problem if I give another example for each property...😃
+          </mark>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============================================
+     The different Explicit grid & Implicit grid
+     =============================================== -->
+    <section id="lesson">
+      <div class="container">
+        <p>An example of how grid-template-columns and rows work:</p>
+
+        <div class="container-item">
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+          <div class="item">5</div>
+          <div class="item">6</div>
+          <div class="item">7</div>
+          <div class="item">8</div>
+          <div class="item">9</div>
+          <div class="item">10</div>
+        </div>
+
+        <div class="penjelasan">
+          <p>
+            So, in CSS Grid, there are two types:
+            <mark>Explicit Grid and Implicit Grid.</mark>
+          </p>
+
+          <div class="explicit">
+            <strong>What is an Explicit Grid?</strong><br />
+            An Explicit Grid is a grid structure whose dimensions you
+            intentionally define yourself in the CSS code using the
+            grid-template-columns, grid-template-rows, or grid-template-areas
+            properties.
+          </div>
+
+          <div class="implisit">
+            <strong>What is an Implicit Grid?</strong><br />
+            An implicit grid is an additional row or column automatically
+            created by the browser when the number of grid items (child
+            elements) exceeds the capacity of the explicitly defined grid. By
+            default, the browser adds a new row below with its size set to
+            'auto'. For example, items <mark>10 - 12</mark> use an implicit
+            grid.
+          </div>
+
+          <div class="max">
+            <mark>max-content:</mark> Sets the element's width to fit content on
+            a single line without wrapping.<br />
+            <mark>min-content:</mark> Sets the element's width to the smallest
+            possible size without overflowing.
+          </div>
+        </div>
+
+        <p>This is the example for max-content:</p>
+        <div class="container-item1">
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+          <div class="item">This is the example of max-content</div>
+          <div class="item">6</div>
+          <div class="item">7</div>
+          <div class="item">8</div>
+          <div class="item">9</div>
+          <div class="item">10</div>
+          <div class="item">11</div>
+          <div class="item">12</div>
+        </div>
+
+        <p>And this is the example for min-content:</p>
+        <div class="container-item2">
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+          <div class="item">This is the example of min-content</div>
+          <div class="item">6</div>
+          <div class="item">7</div>
+          <div class="item">8</div>
+          <div class="item">9</div>
+          <div class="item">10</div>
+          <div class="item">11</div>
+          <div class="item">12</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================================
+     The Example of gallery Responsive with repeat(auto-fit, minmax(150px, 1fr))
+     ============================================================================= -->
+    <section id="gallery">
+      <div class="container">
+        <h2>My Favorite Heroes in Mobile Legends</h2>
+        <ul class="gallery">
+          <li><img src="1.png" alt="Mobile Legends Hero 1" /></li>
+          <li><img src="2.png" alt="Mobile Legends Hero 2" /></li>
+          <li><img src="3.png" alt="Mobile Legends Hero 3" /></li>
+          <li><img src="4.png" alt="Mobile Legends Hero 4" /></li>
+          <li><img src="5.png" alt="Mobile Legends Hero 5" /></li>
+          <li><img src="6.png" alt="Mobile Legends Hero 6" /></li>
+          <li><img src="7.png" alt="Mobile Legends Hero 7" /></li>
+          <li><img src="8.png" alt="Mobile Legends Hero 8" /></li>
+          <li><img src="9.png" alt="Mobile Legends Hero 9" /></li>
+          <li><img src="10.png" alt="Mobile Legends Hero 10" /></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="grid-area">
+      <p>
+        So, in this post, we’re discussing the `grid-area` property.<br />
+        Simply put, `grid-area` tells the browser:<mark>
+          “This element should be placed from row X to row Y, and from column X
+          to column Y.”</mark
+        >
+      </p>
+      <div class="container">
+        <div class="kotak header">header</div>
+        <div class="kotak sidebar">sidebar</div>
+        <div class="kotak content">content</div>
+        <div class="kotak footer">footer</div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+     The example of Justify-items in css grid 
+     ===================================================-->
+    <section id="justify">
+      <div class="container">
+        <div class="container-items">
+          <div class="kota kotak1">Justify-items: start;</div>
+          <div class="garis"></div>
+          <div class="kota kotak2">Justify-items: end;</div>
+          <div class="garis"></div>
+          <div class="kota kotak3">Justify-items: center;</div>
+          <div class="garis"></div>
+          <div class="kota kotak4">Justify-items: stretch;</div>
+        </div>
+        <p>
+          1. justify-items: start; Effect: Aligns all Grid items to the
+          start/left side of their respective grid cells. Size: The item width
+          shrinks to fit only the text/content (does not fill the cell
+          width).<br />
+          2. justify-items: end; Effect: Aligns all Grid items to the end/right
+          side of their respective grid cells. Size: The item’s width shrinks to
+          fit its text or content. <br />
+          3. justify-items: center; Effect: Places all Grid items exactly in the
+          center of the grid cell. Size: The width of the items shrinks to fit
+          their text or content. <br />
+          4. justify-items: stretch; (Default Value) Effect: Forces all Grid
+          items to stretch to fill 100% of the grid cell’s width. <br />
+          <mark
+            >Note: This effect only works if the items do not have a
+            specifically set `width` property. Remember: `justify-items` is
+            applied to the parent container that has `display: grid;`, not to
+            the elements...</mark
+          >
+        </p>
+      </div> 
+    </section>
+  </body>
+</html>
