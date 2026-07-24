@@ -33,6 +33,7 @@ This project demonstrates how to use Grid in CSS, as outlined in this documentat
 This HTML document serves as an interactive study note and documentation page showcasing the evolution of CSS layout techniques—from Float and Flexbox to an in-depth exploration of CSS Grid.
 
 📚 Structure & Key Topics Covered
+
 1.Basic Concepts & Layout Comparisons
 SS Grid Definition: A two-dimensional (2D) layout system capable of handling both rows and columns simultaneously.
 Practical Layout Examples:
