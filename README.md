@@ -39,6 +39,7 @@ Practical Layout Examples:
 - Page structure using Float (including clearfix).
 - Page structure using Flexbox (1D layout).
 - Page structure using CSS Grid (2D layout).
+  
 2.Basic CSS Grid Terminology
 Clear explanations of core concepts:
 - Grid Container: The parent element where display: grid is applied.
