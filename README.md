@@ -15,13 +15,15 @@
 
 This project demonstrates how to use Grid in CSS, as outlined in this documentation...
 ## 📂️ Struktur yang ada di dalamnya / The structure inside it 
-|Struktur                |Spesifikasi                                  | Specifications                       |
-| :----------------------| :-------------------------------------------|--------------------------------------|
-| `index.html`           | membangun kerangka dasar web                | builds the basic web framework       |     
-| `style.css`            | untuk mengatur tampilan HTML                | to style the HTML                    |
-| `project using float ` | penjelasan dasar penggunaan float           | basic explanation of Float           |
-| `Project using flex`   | penjelasan dasar penggunaan flex            | basic explanation of Float           |
-| `Simple structure using CSS Grid` | flex-warp,max-width                 | flex-wrap, max-width                 |
-| `container4` | transition,overflow                 | transition, overflow                 |
-| `container5` | membuat kotak dan tulisan responsive| creating responsive boxes and text   |
+|Struktur                                                                       |Spesifikasi                                     | Specifications                                 |
+| :-----------------------------------------------------------------------------| :----------------------------------------------|------------------------------------------------|
+| `index.html`                                                                  | membangun kerangka dasar web                   | builds the basic web framework                 |     
+| `style.css`                                                                   | untuk mengatur tampilan HTML                   | to style the HTML                              |
+| `project using float `                                                        | penjelasan dasar penggunaan float              | basic explanation of Float                     |
+| `Project using flex`                                                          | penjelasan dasar penggunaan flex               | basic explanation of Float                     |
+| `Simple structure using CSS Grid`                                             | Struktur sederhana menggunkan css grid         | Simple structure using CSS Grid                |
+| ` Atribute css grid`                                                          | Attribute css grid                             |  Atribute css grid                             |
+| `The different Explicit grid & Implicit grid`                                 | perbedaan antara Explicit grid & implicit grid | The different Explicit grid & Implicit grid    |
+| `The Example of gallery Responsive with repeat(auto-fit, minmax(150px, 1fr))` | contoh responsive menggunakan repeat           | The Example of gallery Responsive with repeat  |
+| `TThe example of Justify-items in css grid `                                  | pcontoh penggunaan justify-items               | The example of Justify-items in css grid       |  
 
